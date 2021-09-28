@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91EFF24126FD890C004FA40E /* Moodie3 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91EFF24026FD890C004FA40E /* Moodie3 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91EFF24626FD890E004FA40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EFF24526FD890E004FA40E /* Assets.xcassets */; };
+		91EFF24C26FD890E004FA40E /* Moodie3 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91EFF24B26FD890E004FA40E /* Moodie3 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91EFF25126FD890E004FA40E /* Moodie3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF25026FD890E004FA40E /* Moodie3App.swift */; };
+		91EFF25326FD890E004FA40E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF25226FD890E004FA40E /* ContentView.swift */; };
+		91EFF25526FD890E004FA40E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF25426FD890E004FA40E /* NotificationController.swift */; };
+		91EFF25726FD890E004FA40E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF25626FD890E004FA40E /* NotificationView.swift */; };
+		91EFF25926FD890E004FA40E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF25826FD890E004FA40E /* ComplicationController.swift */; };
+		91EFF25B26FD890F004FA40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EFF25A26FD890F004FA40E /* Assets.xcassets */; };
+		91EFF25E26FD890F004FA40E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EFF25D26FD890F004FA40E /* Preview Assets.xcassets */; };
+		91EFF26A26FD890F004FA40E /* Moodie3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF26926FD890F004FA40E /* Moodie3Tests.swift */; };
+		91EFF27426FD890F004FA40E /* Moodie3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF27326FD890F004FA40E /* Moodie3UITests.swift */; };
+		91EFF27626FD890F004FA40E /* Moodie3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFF27526FD890F004FA40E /* Moodie3UITestsLaunchTests.swift */; };
+		91EFF28F26FD8BF0004FA40E /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91EFF28E26FD8BF0004FA40E /* MyScene.sks */; };
+		91EFF29126FD8C47004FA40E /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91EFF29026FD8C47004FA40E /* MyParticle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91EFF24226FD890C004FA40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFF23626FD890C004FA40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFF23F26FD890C004FA40E;
+			remoteInfo = "Moodie3 WatchKit App";
+		};
+		91EFF24D26FD890E004FA40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFF23626FD890C004FA40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFF24A26FD890E004FA40E;
+			remoteInfo = "Moodie3 WatchKit Extension";
+		};
+		91EFF26626FD890F004FA40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFF23626FD890C004FA40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFF24A26FD890E004FA40E;
+			remoteInfo = "Moodie3 WatchKit Extension";
+		};
+		91EFF27026FD890F004FA40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFF23626FD890C004FA40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFF23F26FD890C004FA40E;
+			remoteInfo = "Moodie3 WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91EFF27C26FD890F004FA40E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				91EFF24C26FD890E004FA40E /* Moodie3 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF28026FD890F004FA40E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				91EFF24126FD890C004FA40E /* Moodie3 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91EFF23C26FD890C004FA40E /* Moodie3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodie3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFF24026FD890C004FA40E /* Moodie3 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moodie3 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFF24526FD890E004FA40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91EFF24B26FD890E004FA40E /* Moodie3 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Moodie3 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFF25026FD890E004FA40E /* Moodie3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodie3App.swift; sourceTree = "<group>"; };
+		91EFF25226FD890E004FA40E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91EFF25426FD890E004FA40E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		91EFF25626FD890E004FA40E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		91EFF25826FD890E004FA40E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		91EFF25A26FD890F004FA40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91EFF25D26FD890F004FA40E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91EFF25F26FD890F004FA40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EFF26026FD890F004FA40E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		91EFF26526FD890F004FA40E /* Moodie3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Moodie3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFF26926FD890F004FA40E /* Moodie3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodie3Tests.swift; sourceTree = "<group>"; };
+		91EFF26F26FD890F004FA40E /* Moodie3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Moodie3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFF27326FD890F004FA40E /* Moodie3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodie3UITests.swift; sourceTree = "<group>"; };
+		91EFF27526FD890F004FA40E /* Moodie3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodie3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91EFF28E26FD8BF0004FA40E /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		91EFF29026FD8C47004FA40E /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EFF24826FD890E004FA40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF26226FD890F004FA40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF26C26FD890F004FA40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91EFF23526FD890C004FA40E = {
+			isa = PBXGroup;
+			children = (
+				91EFF24426FD890C004FA40E /* Moodie3 WatchKit App */,
+				91EFF24F26FD890E004FA40E /* Moodie3 WatchKit Extension */,
+				91EFF26826FD890F004FA40E /* Moodie3Tests */,
+				91EFF27226FD890F004FA40E /* Moodie3UITests */,
+				91EFF23D26FD890C004FA40E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91EFF23D26FD890C004FA40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91EFF23C26FD890C004FA40E /* Moodie3.app */,
+				91EFF24026FD890C004FA40E /* Moodie3 WatchKit App.app */,
+				91EFF24B26FD890E004FA40E /* Moodie3 WatchKit Extension.appex */,
+				91EFF26526FD890F004FA40E /* Moodie3Tests.xctest */,
+				91EFF26F26FD890F004FA40E /* Moodie3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91EFF24426FD890C004FA40E /* Moodie3 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				91EFF24526FD890E004FA40E /* Assets.xcassets */,
+			);
+			path = "Moodie3 WatchKit App";
+			sourceTree = "<group>";
+		};
+		91EFF24F26FD890E004FA40E /* Moodie3 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				91EFF25026FD890E004FA40E /* Moodie3App.swift */,
+				91EFF25226FD890E004FA40E /* ContentView.swift */,
+				91EFF28E26FD8BF0004FA40E /* MyScene.sks */,
+				91EFF29026FD8C47004FA40E /* MyParticle.sks */,
+				91EFF25426FD890E004FA40E /* NotificationController.swift */,
+				91EFF25626FD890E004FA40E /* NotificationView.swift */,
+				91EFF25826FD890E004FA40E /* ComplicationController.swift */,
+				91EFF25A26FD890F004FA40E /* Assets.xcassets */,
+				91EFF25F26FD890F004FA40E /* Info.plist */,
+				91EFF26026FD890F004FA40E /* PushNotificationPayload.apns */,
+				91EFF25C26FD890F004FA40E /* Preview Content */,
+			);
+			path = "Moodie3 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		91EFF25C26FD890F004FA40E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91EFF25D26FD890F004FA40E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91EFF26826FD890F004FA40E /* Moodie3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91EFF26926FD890F004FA40E /* Moodie3Tests.swift */,
+			);
+			path = Moodie3Tests;
+			sourceTree = "<group>";
+		};
+		91EFF27226FD890F004FA40E /* Moodie3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				91EFF27326FD890F004FA40E /* Moodie3UITests.swift */,
+				91EFF27526FD890F004FA40E /* Moodie3UITestsLaunchTests.swift */,
+			);
+			path = Moodie3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EFF23B26FD890C004FA40E /* Moodie3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFF28126FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3" */;
+			buildPhases = (
+				91EFF23A26FD890C004FA40E /* Resources */,
+				91EFF28026FD890F004FA40E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFF24326FD890C004FA40E /* PBXTargetDependency */,
+			);
+			name = Moodie3;
+			productName = Moodie3;
+			productReference = 91EFF23C26FD890C004FA40E /* Moodie3.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		91EFF23F26FD890C004FA40E /* Moodie3 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFF27D26FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3 WatchKit App" */;
+			buildPhases = (
+				91EFF23E26FD890C004FA40E /* Resources */,
+				91EFF27C26FD890F004FA40E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFF24E26FD890E004FA40E /* PBXTargetDependency */,
+			);
+			name = "Moodie3 WatchKit App";
+			productName = "Moodie3 WatchKit App";
+			productReference = 91EFF24026FD890C004FA40E /* Moodie3 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		91EFF24A26FD890E004FA40E /* Moodie3 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFF27926FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3 WatchKit Extension" */;
+			buildPhases = (
+				91EFF24726FD890E004FA40E /* Sources */,
+				91EFF24826FD890E004FA40E /* Frameworks */,
+				91EFF24926FD890E004FA40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moodie3 WatchKit Extension";
+			productName = "Moodie3 WatchKit Extension";
+			productReference = 91EFF24B26FD890E004FA40E /* Moodie3 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		91EFF26426FD890F004FA40E /* Moodie3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFF28426FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3Tests" */;
+			buildPhases = (
+				91EFF26126FD890F004FA40E /* Sources */,
+				91EFF26226FD890F004FA40E /* Frameworks */,
+				91EFF26326FD890F004FA40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFF26726FD890F004FA40E /* PBXTargetDependency */,
+			);
+			name = Moodie3Tests;
+			productName = Moodie3Tests;
+			productReference = 91EFF26526FD890F004FA40E /* Moodie3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91EFF26E26FD890F004FA40E /* Moodie3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFF28726FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3UITests" */;
+			buildPhases = (
+				91EFF26B26FD890F004FA40E /* Sources */,
+				91EFF26C26FD890F004FA40E /* Frameworks */,
+				91EFF26D26FD890F004FA40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFF27126FD890F004FA40E /* PBXTargetDependency */,
+			);
+			name = Moodie3UITests;
+			productName = Moodie3UITests;
+			productReference = 91EFF26F26FD890F004FA40E /* Moodie3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91EFF23626FD890C004FA40E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					91EFF23B26FD890C004FA40E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					91EFF23F26FD890C004FA40E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					91EFF24A26FD890E004FA40E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					91EFF26426FD890F004FA40E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 91EFF24A26FD890E004FA40E;
+					};
+					91EFF26E26FD890F004FA40E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 91EFF23F26FD890C004FA40E;
+					};
+				};
+			};
+			buildConfigurationList = 91EFF23926FD890C004FA40E /* Build configuration list for PBXProject "Moodie3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91EFF23526FD890C004FA40E;
+			productRefGroup = 91EFF23D26FD890C004FA40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EFF23B26FD890C004FA40E /* Moodie3 */,
+				91EFF23F26FD890C004FA40E /* Moodie3 WatchKit App */,
+				91EFF24A26FD890E004FA40E /* Moodie3 WatchKit Extension */,
+				91EFF26426FD890F004FA40E /* Moodie3Tests */,
+				91EFF26E26FD890F004FA40E /* Moodie3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91EFF23A26FD890C004FA40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF23E26FD890C004FA40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFF24626FD890E004FA40E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF24926FD890E004FA40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFF25E26FD890F004FA40E /* Preview Assets.xcassets in Resources */,
+				91EFF28F26FD8BF0004FA40E /* MyScene.sks in Resources */,
+				91EFF25B26FD890F004FA40E /* Assets.xcassets in Resources */,
+				91EFF29126FD8C47004FA40E /* MyParticle.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF26326FD890F004FA40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF26D26FD890F004FA40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91EFF24726FD890E004FA40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFF25526FD890E004FA40E /* NotificationController.swift in Sources */,
+				91EFF25326FD890E004FA40E /* ContentView.swift in Sources */,
+				91EFF25926FD890E004FA40E /* ComplicationController.swift in Sources */,
+				91EFF25126FD890E004FA40E /* Moodie3App.swift in Sources */,
+				91EFF25726FD890E004FA40E /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF26126FD890F004FA40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFF26A26FD890F004FA40E /* Moodie3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFF26B26FD890F004FA40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFF27426FD890F004FA40E /* Moodie3UITests.swift in Sources */,
+				91EFF27626FD890F004FA40E /* Moodie3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91EFF24326FD890C004FA40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFF23F26FD890C004FA40E /* Moodie3 WatchKit App */;
+			targetProxy = 91EFF24226FD890C004FA40E /* PBXContainerItemProxy */;
+		};
+		91EFF24E26FD890E004FA40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFF24A26FD890E004FA40E /* Moodie3 WatchKit Extension */;
+			targetProxy = 91EFF24D26FD890E004FA40E /* PBXContainerItemProxy */;
+		};
+		91EFF26726FD890F004FA40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFF24A26FD890E004FA40E /* Moodie3 WatchKit Extension */;
+			targetProxy = 91EFF26626FD890F004FA40E /* PBXContainerItemProxy */;
+		};
+		91EFF27126FD890F004FA40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFF23F26FD890C004FA40E /* Moodie3 WatchKit App */;
+			targetProxy = 91EFF27026FD890F004FA40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91EFF27726FD890F004FA40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91EFF27826FD890F004FA40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91EFF27A26FD890F004FA40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moodie3 WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moodie3 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodie3 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		91EFF27B26FD890F004FA40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moodie3 WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moodie3 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodie3 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		91EFF27E26FD890F004FA40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Moodie3_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodie3 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		91EFF27F26FD890F004FA40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Moodie3_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Moodie3 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		91EFF28226FD890F004FA40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91EFF28326FD890F004FA40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91EFF28526FD890F004FA40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodie3 WatchKit Extension.appex/Moodie3 WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		91EFF28626FD890F004FA40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodie3 WatchKit Extension.appex/Moodie3 WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		91EFF28826FD890F004FA40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Moodie3 WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		91EFF28926FD890F004FA40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yourmagicisreal.Moodie3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Moodie3 WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91EFF23926FD890C004FA40E /* Build configuration list for PBXProject "Moodie3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF27726FD890F004FA40E /* Debug */,
+				91EFF27826FD890F004FA40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFF27926FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF27A26FD890F004FA40E /* Debug */,
+				91EFF27B26FD890F004FA40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFF27D26FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF27E26FD890F004FA40E /* Debug */,
+				91EFF27F26FD890F004FA40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFF28126FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF28226FD890F004FA40E /* Debug */,
+				91EFF28326FD890F004FA40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFF28426FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF28526FD890F004FA40E /* Debug */,
+				91EFF28626FD890F004FA40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFF28726FD890F004FA40E /* Build configuration list for PBXNativeTarget "Moodie3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF28826FD890F004FA40E /* Debug */,
+				91EFF28926FD890F004FA40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91EFF23626FD890C004FA40E /* Project object */;
+}
